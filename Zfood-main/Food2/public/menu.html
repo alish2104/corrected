@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #fcc680;
+      color: #000000;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .menu-item {
+      flex: 0 0 30%;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      background-color:#fcc680;
+    }
+
+    .menu-item h3 {
+      margin-top: 0;
+    }
+
+    .price {
+      color: #f00;
+      font-weight: bold;
+    }
+
+    .category {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+
+    .menu-item img{
+      width: 120px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BLISS BITES</h1>
+    <p>Welcome to our delicious menu</p>
+  </header>
+
+  <section>
+    <div class="menu-item">
+      <h3>Appetizer 1</h3>
+      <img src="./img/a.png" alt="">
+      <p>Start your culinary journey with our delightful Appetizer 1. Crispy on the outside, tender on the inside, it's the perfect way to tantalize your taste buds</p>
+      <p class="price">Rs.600/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Main Course 1</h3>
+      <img src="./img/b.png" alt="">
+      <p>Savor the richness of Main Course 1. Succulent cuts of premium meat, paired with perfectly seasoned sides, create a symphony of flavors that will satisfy your hearty appetite.</p>
+      <p class="price">Rs.1490/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Dessert 1</h3>
+      <img src="./img/d1.png" alt="">
+      <p>Conclude your meal on a sweet note with Dessert 1. A heavenly creation of decadent flavors and textures, this dessert is the perfect finale to your dining experienc</p>
+      <p class="price">Rs.599/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Appetizer 2</h3>
+      <img src="./img/d.png" alt="">
+      <p>Explore new flavors with our Appetizer 2. A harmonious blend of fresh ingredients and savory spices, this dish is a delightful prelude to your dining experience.</p>
+      <p class="price">Rs.900/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Main Course 2</h3>
+      <img src="./img/e.png" alt="">
+      <p>Indulge in the culinary masterpiece that is Main Course 2. A medley of textures and tastes, this dish showcases the chef's expertise in combining quality ingredients for an unforgettable dining experience.</p>
+      <p class="price">Rs.1300/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Dessert 2</h3>
+      <img src="./img/d2.png" alt="">
+      <p>Treat your sweet tooth to Dessert 2. A luscious combination of sweet and tart, this dessert is a delightful way to conclude your culinary journey with us.</p>
+      <p class="price">Rs.700/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Appetizer 3</h3>
+      <img src="./img/g.png" alt="">
+      <p>Dive into a world of flavor with Appetizer 3. These mouthwatering bites offer a burst of taste that will leave you craving for more. A perfect choice to kickstart your meal.</p>
+      <p class="price">Rs.400/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Main Course 3</h3>
+      <img src="./img/c.png" alt="">
+      <p>Embark on a gastronomic adventure with Main Course 3. Each forkful is a journey through layers of exquisite flavors, bringing together the finest ingredients to create a memorable dining sensation.</p>
+      <p class="price">Rs.1700/-</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Dessert 3</h3>
+      <img src="./img/d3.png" alt="">
+      <p>End your meal on a high note with Dessert 3. A tempting symphony of flavors awaits, as each bite transports you to a world of sweetness and indulgence.</p>
+      <p class="price">Rs.899/-</p>
+    </div>
+
+    <div class="back-to-home">
+      <a href="food.html" class="button">Back to Home</a>
+    </div>
+
+  </section>
+
+</body>
+</html>
